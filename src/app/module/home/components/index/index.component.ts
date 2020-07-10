@@ -32,9 +32,9 @@ export class IndexComponent {
                     this.emailSendFormSubmitting = false;
                     this.isSendSuccess = true;
                     setTimeout(() => {
-                        this.emailSendFormSubmitted = false;
                         this.isSendSuccess = false;
                         this.emailSendForm.reset();
+                        this.emailSendFormSubmitted = false;
                     }, 4000);
 
                 }
